@@ -70,7 +70,10 @@ namespace SassyClub.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(model);
+                
+                  return View(model);
+               
+               
             }
 
             // This doesn't count login failures towards account lockout
@@ -86,7 +89,7 @@ namespace SassyClub.Controllers
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
+                    ModelState.AddModelError("", "UserName or Password is incorrect.");
                     return View(model);
             }
         }
@@ -151,7 +154,7 @@ namespace SassyClub.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email,  };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
