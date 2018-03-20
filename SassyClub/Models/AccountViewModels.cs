@@ -48,12 +48,16 @@ namespace SassyClub.Models
 
     public class LoginViewModel
     {
+        
         [Required]
         [Display(Name = "Email")]
         [EmailAddress]
+        [DataType(DataType.EmailAddress)]
+        //[EmailAddress(ErrorMessage = "Please enter a valid Email address")]
         public string Email { get; set; }
 
-       [Required]
+        [Required]
+       
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
