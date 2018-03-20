@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALMtG0rkt/kyucofgt7iewAAAAAACAAAAAAAQZgAAAAEAACAAAAA/AqJYNKoIsWBIXiNr1drNo7odEAbHlXwceWm8wPrL0wAAAAAOgAAAAAIAACAAAAC0xTdSCwstHW+79w4IbVZy6lPsScA/+EhNrIKbGw7quyAAAADn5O5u71RdduvLS+o0rHDVtXklTa9dFTnHiF5w3+khKkAAAACq/UJ0T7MtlfAfy5/4X/9cvb0h8uaZ0tXNZChEHE82lbwo7jIbMX4t69PM3cLMkLfMW/CUDiPvATiLgjcybGZp</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FTP.SITE4NOW.NET/sassyclub</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/16/2018 19:33:54</publishTime>
+    </File>
+    <File Include="assets/css/page.css">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/page.css.map">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/page.min.css">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/page.min.css.map">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/style.css">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/style.css.map">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/style.min.css">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/style.min.css.map">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/css/style.scss">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/et-line.eot">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/et-line.svg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/et-line.ttf">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/et-line.woff">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.eot">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.svg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.ttf">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.woff">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/app/badge-apple.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/app/badge-google.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/app/map-marker.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/apple-touch-icon.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/1.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/10.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/11.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/2.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/3.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/4.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/5.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/6.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/7.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/8.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/9.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/avatar/placeholder.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/1.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/10.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/11.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/12.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/13.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/2.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/3.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/4.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/5.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/6.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/7.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/8.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/9.jpg">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/bg/pattern-1.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/Cloud.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/dog.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/github.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/Light.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/planet.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/rocket.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/icon/rocket2.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/logo-dark.png">
+      <publishTime>03/16/2018 19:33:55</publishTime>
+    </File>
+    <File Include="assets/img/logo-light.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/bootstrap-punchout.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/bootstrap-solid.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/bootstrap.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/dropbox.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/github-light.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/github.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/google.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/mailchimp.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/paypal.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/slack.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/trello-light.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/trello.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/logo/zendesk.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/og-img.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/1.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/2.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/3.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/4.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/5.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/6.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/partner/7.png">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/1.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/2.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/3.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/4.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/5.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/6.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/7.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/8.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/preview/block-1.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/preview/block-2.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="assets/img/preview/block-3.jpg">
+      <publishTime>03/16/2018 19:33:56</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/16/2018 19:33:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/16/2018 19:33:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2018 12:09:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

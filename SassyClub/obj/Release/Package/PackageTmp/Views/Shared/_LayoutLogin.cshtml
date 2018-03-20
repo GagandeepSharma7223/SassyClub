@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>TheSaaS — Login</title>
+    <!-- Styles -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="~/assets/img/apple-touch-icon.png">
+    <link rel="icon" href="~/assets/img/favicon.png">
+
+    @Styles.Render("~/bundles/sassy-css")
+    @Styles.Render("~/Content/css")
+</head>
+<body class="layout-centered bg-img" style="background-image: url(../assets/img/bg/4.jpg);">
+
+    <!-- Main Content -->
+    <main class="main-content">
+        @RenderBody()
+    </main><!-- /.main-content -->
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/sassy-scripts")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
