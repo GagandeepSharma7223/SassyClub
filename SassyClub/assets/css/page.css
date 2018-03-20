@@ -1,5 +1,5 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600");
+﻿@charset "UTF-8";
+@import url("https://assets/fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600");
 /*
 $blue:                        #0facf3;
 $indigo:                      #6610f2;
@@ -8870,11 +8870,12 @@ a.text-dark:hover, a.text-dark:focus {
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'FontAwesome';
+    src: url("/assets/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 .fa {
   display: inline-block;
@@ -11532,15 +11533,15 @@ you can use the generic selector below, but it's slower:
 
 @font-face {
   font-family: 'et-line';
-  src: url("../fonts/et-line.eot");
-  src: url("../fonts/et-line.eot?#iefix") format("embedded-opentype"), url("../fonts/et-line.woff") format("woff"), url("../fonts/et-line.ttf") format("truetype"), url("../fonts/et-line.svg#et-line") format("svg");
+  src: url("/assets/fonts/et-line.eot");
+  src: url("/assets/fonts/et-line.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/et-line.woff") format("woff"), url("/assets/fonts/et-line.ttf") format("truetype"), url("/assets/fonts/et-line.svg#et-line") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'themify';
-  src: url("../fonts/themify.eot?-fvbane");
-  src: url("../fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify.woff?-fvbane") format("woff"), url("../fonts/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify.svg?-fvbane#themify") format("svg");
+  src: url("/assets/fonts/themify.eot?-fvbane");
+  src: url("/assets/fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("/assets/fonts/themify.woff?-fvbane") format("woff"), url("/assets/fonts/themify.ttf?-fvbane") format("truetype"), url("/assets/fonts/themify.svg?-fvbane#themify") format("svg");
   font-weight: normal;
   font-style: normal; }
 
