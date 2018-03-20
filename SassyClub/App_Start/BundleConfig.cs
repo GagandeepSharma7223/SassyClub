@@ -12,16 +12,25 @@ namespace SassyClub
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/sassy-scripts").Include(
-                "~/assets/js/page.min.js", 
-                "~/assets/js/script.js"));
+                "~/assets/js/page.min.js",
+                "~/assets/js/script.js",
+                //"~/SassySite/SiteAssets/js/page.min.js", 
+                //"~/SassySite/SiteAssets/js/script.js", 
+                "~/SassySite/aaMyassets/js/bypassAPI.js", 
+                "~/SassySite/aaMyassets/js/map.js"));
+
+
 
 
             bundles.Add(new StyleBundle("~/bundles/sassy-css").Include(
-                "~/assets/css/page.min.css", 
-                "~/assets/css/style.css"));
+                "~/assets/css/page.min.css",
+                "~/assets/css/style.css",
+                //"~/SassySite/SiteAssets/css/page.min.css",
+                //"~/SassySite/SiteAssets/css/style.css", 
+                "~/SassySite/aaMyassets/css/myStyle.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                      "~/Scripts/jquery.validate*",                    
+                      "~/Scripts/jquery.validate*",
                       "~/Scripts/jquery.validate.unobtrusive.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
